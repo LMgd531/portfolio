@@ -1,0 +1,209 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+html,
+body{
+  background-color: #251141;
+}
+
+.Signin{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  min-height:400px;
+  min-width:400px;
+  height:60vh;
+  width:60vh;
+  max-width:120vw;
+  max-height:120vw;
+  z-index: 10;
+}
+
+.Headline{
+  margin-bottom:4.2%;
+}
+
+.h1hl{
+  margin-top:23.5%;
+  font-family: "Museo Sans 900";
+  text-transform: uppercase;
+  letter-spacing:-1px;
+  color:#EEE;
+  text-align: center;
+  font-size:2.6rem;
+}
+
+.phl{
+  text-transform: uppercase;
+  color: #ae00ff;
+  text-align: center;
+  font-size:1.3rem;
+  font-family: "Museo Sans 500";
+}
+
+.posrel{
+
+}
+
+.marg1{
+  top:14px;
+}
+
+
+.UsePass{
+  position:relative;
+  background-color: linear-gradient(red 20%, white 5%);
+  width:38rem;
+  height:4rem;
+  margin:0 auto;
+  border-radius:3px 2px 2px 3px;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.img{
+  opacity:1;
+  overflow: hidden;
+  border-radius:3px 0px 0px 3px;
+  position:absolute;
+  width:40px;
+  height:40px;
+  top:0px;
+  left:1px;
+  background-color: #8e8e8e;
+  content: url('./usericon.png');
+  transition: all 0.3s;
+}
+
+.img1{
+  border-radius:3px 0px 0px 3px;
+  position:absolute;
+  width:40px;
+  height:40px;
+  top:0px;
+  left:1px;
+  content: url('./passicon.png');
+  background-color: #8e8e8e;
+  transition: all 0.3s;
+}
+
+.input:focus ~ .img{
+  background-color:#ae00ff;
+}
+
+.input1:focus ~ .img1{
+  background-color:#ae00ff;
+}
+
+.input1{
+  margin-left:4rem;
+  font-size:2rem;
+  border-radius:0px 2px 2px 0px;
+  padding-left:2rem;
+  border:1px solid transparent;
+  outline: none;
+  width:340px;
+  height:4rem;
+  font-family: "Museo Sans 100";
+  color:#8e8e8e;
+}
+
+.input1::placeholder{
+  letter-spacing:-0.5px;
+  font-family: "Museo Sans 300";
+  color:#8e8e8e;
+  font-size:1.3rem;
+  transform:translatey(-2px);
+}
+
+.input{
+  margin-left:4rem;
+  font-size:2rem;
+  border-radius:0px 2px 2px 0px;
+  padding-left:2rem;
+  border:1px solid transparent;
+  outline: none;
+  width:340px;
+  height:4rem;
+  font-family: "Museo Sans 100";
+  color:#8e8e8e;
+}
+
+.input::placeholder{
+  letter-spacing:-0.5px;
+  font-family: "Museo Sans 300";
+  color:#8e8e8e;
+  font-size:1.3rem;
+  transform:translatey(-2px);
+}
+
+.button{
+  text-align: center;
+  background-color: transparent;
+  border-radius: 4px;
+  margin:10% auto;
+  width:134px;
+  color:white;
+  line-height: 36px;
+  font-size: 16px;
+  padding: 0 40px;
+  font-family: "Museo Sans 300";
+  border:2px solid #ae00ff;
+  transition:all 0.3s;
+}
+
+.button:hover{
+  border:2px solid #ae00ff;
+  cursor: pointer;
+  background-color:#ae00ff;
+}
+
+.bgvideo{
+  height:100%;
+  width:100%;
+  object-fit:cover;
+
+}
+
+.bgvid{
+  opacity:1;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  overflow: hidden;
+  filter:blur(35px) contrast(1.1);
+  z-index: -5;
+}
+
+.bgvideo{
+  height:100%;
+  width:100%;
+  object-fit:cover;
+}
+
+.header{
+  height:100%;
+}
+
+.particles{
+  z-index: 1;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position: fixed;
+}
+
+#particles-js{
+
+  height:100%;
+}
