@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Project</title>
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/photoshoot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <!--  <link rel="stylesheet" media="all" id="font-awesome-5-kit-css" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css">-->
+  </head>
+  <body>
+
+  <input type="checkbox" class="cbox" name="hello" value="hello">
+  <div class="icon-cbox"></div>
+    <!--Loading-->
+    <div class="loading">
+      <div class="loadingReveal"></div>
+      <p class="loadingText">LOADING</p>
+    </div>
+
+    <nav>
+        <!--Logo-->
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <!--Menu-->
+        <ul>
+          <li><a href="../index.html" >Home</a></li>
+          <li><a href="../index.html#about" >About</a></li>
+          <li><a href="../index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <!--Language-->
+        <a href="#" class="lang">En</a>
+      </nav>
+
+    <!--About-->
+    <div id="about" class="about">
+      <div class="about-container">
+        <div class="intro">
+          <div class="primary">
+            <h1>Blender Project</h1>
+            <h2>House</h2>
+          </div>
+
+          <div class="secondary">
+            <h1>Made in</h1>
+            <h2>April 2017</h2>
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="p-container">
+          <div class="images">
+            <a href="#">
+            <img class="w" src="../img/OP/Part18.jpg" alt="">
+            </a>
+          </div>
+          <div class="images">
+            <a href="#">
+            <img class="w" src="../img/OP/Part19.jpg" alt="">
+            </a>
+          </div>
+          <div class="images">
+            <a href="#">
+            <img class="w" src="../img/OP/Part20.jpg" alt="">
+            </a>
+          </div>
+          <div class="images">
+            <a href="#">
+            <img class="w" src="../img/OP/Part21.jpg" alt="">
+            </a>
+          </div>
+
+          <div class="writing">
+            <p> 1. Project Blender House: <span> This project took quite a while. One thing I did import for this project is the car. I wish I would've challenged myself and try to make a car. However, cars are difficult to create and it's only a small addition to the main image. I think for my skill level back then, this was quite a successful project.
+            </span></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--Jquery-->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav ul').toggleClass('active-menu')
+      })
+    })
+    </script>
+  </body>
+</html>

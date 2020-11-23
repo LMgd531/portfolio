@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Photoshoot</title>
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/photoshoot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <!--  <link rel="stylesheet" media="all" id="font-awesome-5-kit-css" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css">-->
+  </head>
+  <body>
+
+  <input type="checkbox" class="cbox" name="hello" value="hello">
+  <div class="icon-cbox"></div>
+    <!--Loading-->
+    <div class="loading">
+      <div class="loadingReveal"></div>
+      <p class="loadingText">LOADING</p>
+    </div>
+
+    <nav>
+        <!--Logo-->
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <!--Menu-->
+        <ul>
+          <li><a href="../index.html" >Home</a></li>
+          <li><a href="../index.html#about" >About</a></li>
+          <li><a href="../index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <!--Language-->
+        <a href="#" class="lang">En</a>
+      </nav>
+
+    <!--About-->
+    <div id="about" class="about">
+      <div class="about-container">
+        <div class="intro">
+          <div class="primary">
+            <h1>Feb. 2020</h1>
+            <h2>Photoshoot</h2>
+          </div>
+
+          <div class="secondary">
+            <h1>Camera Gear</h1>
+            <h2>Canon 60D</h2>
+            <h2>18-55mm IS II</h2>
+          </div>
+        </div>
+
+        <div class="p-container">
+          <div class="images">
+            <a href="../html-d/17_4210.html"><img class="h" src="../img/17/_MG_4210_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/17_4205.html"><img class="h" src="../img/17/_MG_4205_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/17_4203.html"><img class="h" src="../img/17/_MG_4203_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/17_4198.html"><img class="h" src="../img/17/_MG_4198_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/17_4194.html"><img class="h" src="../img/17/_MG_4194_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/17_4185.html"><img class="h" src="../img/17/_MG_4185_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/17_4178.html"><img class="h" src="../img/17/_MG_4178_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/17_4174.html"><img class="w" src="../img/17/_MG_4174_E.jpg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="writing">
+          <p> 17. Photoshoot Feb. 2020: <span> This is for the open day at De Montfort University. I took some pictures of the area, only had one hour to take photos around. I really like the area and the architecture there. Made up for some great shots.
+          </span></p>
+        </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--Jquery-->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav ul').toggleClass('active-menu')
+      })
+    })
+    </script>
+  </body>
+</html>

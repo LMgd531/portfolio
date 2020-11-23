@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Project</title>
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/photoshoot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <!--  <link rel="stylesheet" media="all" id="font-awesome-5-kit-css" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css">-->
+  </head>
+  <body>
+
+  <input type="checkbox" class="cbox" name="hello" value="hello">
+  <div class="icon-cbox"></div>
+    <!--Loading-->
+    <div class="loading">
+      <div class="loadingReveal"></div>
+      <p class="loadingText">LOADING</p>
+    </div>
+
+    <nav>
+        <!--Logo-->
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <!--Menu-->
+        <ul>
+          <li><a href="../index.html" >Home</a></li>
+          <li><a href="../index.html#about" >About</a></li>
+          <li><a href="../index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <!--Language-->
+        <a href="#" class="lang">En</a>
+      </nav>
+
+    <!--About-->
+    <div id="about" class="about">
+      <div class="about-container">
+        <div class="intro">
+          <div class="primary">
+            <h1>My First Unity & C#</h1>
+            <h2>Game</h2>
+          </div>
+
+          <div class="secondary">
+            <h1>Made in</h1>
+            <h2>June 2020</h2>
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="p-container">
+          <div class="images">
+            <a href="https://stvn-games.itch.io/pirate-apocalypse" target="_blank">
+            <img class="w" src="../img/OP/Icon4.png" alt="">
+            </a>
+          </div>
+          <div class="images">
+            <img class="h" src="../img/OP/Game8.png" alt="">
+          </div>
+          <div class="images">
+            <img class="h" src="../img/OP/Game7.png" alt="">
+          </div>
+          <div class="images">
+            <img class="h" src="../img/OP/Game6.png" alt="">
+          </div>
+          <div class="images">
+            <img class="h" src="../img/OP/Game5.png" alt="">
+          </div>
+          <div class="images">
+            <img class="h" src="../img/OP/Game4.png" alt="">
+          </div>
+          <div class="images">
+            <img class="h" src="../img/OP/Game3.png" alt="">
+          </div>
+          <div class="images">
+            <img class="h" src="../img/OP/Game2.png" alt="">
+          </div>
+          <div class="images">
+            <img class="w" src="../img/OP/Game1.png" alt="">
+          </div>
+
+          <div class="writing">
+            <p>5. My First Game: <span>This project is something I always wanted to try. By using a course on Udemy, I was finally able to create a game. I used Photoshop and Unity with C#. The interesting part of this whole project is the fact that all graphics, which includes the characters and background of the game, were made by using a mouse and keyboard. Thanks to the feature 'smoothing' in Photoshop, I was able to create the main character, enemies, and the background of the game by using a mouse and not a drawing tablet. I do think a drawing tablet would have been way faster and more versatile.
+            </span></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--Jquery-->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav ul').toggleClass('active-menu')
+      })
+    })
+    </script>
+  </body>
+</html>
