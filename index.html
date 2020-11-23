@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luchian Matei | Portfolio</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <!--  <link rel="stylesheet" media="all" id="font-awesome-5-kit-css" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css">-->
+  </head>
+  <body>
+    <!--Loading-->
+    <div class="loading">
+      <div class="loadingReveal"></div>
+      <p class="loadingText">LOADING</p>
+    </div>
+    <!--Main-->
+    <div id="main" class="main">
+      <!--Nav-->
+      <nav>
+        <!--Logo-->
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <!--Menu-->
+        <ul>
+          <li><a href="#main" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!--Language-->
+        <a href="#" class="lang">En</a>
+      </nav>
+      <!--Name-->
+      <div class="name">
+        <p>Hello</p>
+        <h1>I'm <font color="#17D1AC">Luchian</font> Matei</h1>
+        <!--Details-->
+        <p class="details">I am a student at The Duston School. I enjoy photography and using applications to create various projects. I want to improve my designing skills by choosing to study graphic design.</p>
+        <!--Button-->
+          <a href="#portfolio" class="button1">View Portfolio</a>
+      </div>
+      <!--Social-->
+      <!--<div class="social">
+        <a href="#"><i class""></i></a>
+        <a href="#"><i class""></i></a>
+        <a href="#"><i class""></i></a>
+        <a href="#"><i class""></i></a>
+      </div>-->
+      <!--Arrow-->
+      <div class="arrow"></div>
+    </div>
+    <!--About-->
+    <div id="about" class="about">
+      <!--Text-->
+      <div class="about-text">
+        <h1>About This</h1>
+        <h2>Portfolio Website</h2>
+        <p>I created this website by using HTML & CSS, which will be updated almost daily with new photos, projects, and bug fixes.
+A few things to keep in mind: the website looks its best at the resolution 1920x1080.
+Below, the Portfolio segment has two options: a 'Photography' and an 'Other Projects' section. All my photoshoots are in the photography section, while my other projects are in the Other Projects section.
+Each photoshoot has pictures, and clicking on them will bring you to the specific photo. If you hover over the images, you will see the original one, like a before and after transition. The 'Other Projects' section does not have this feature.
+When you click on Photography or Other projects, at the bottom, there will be a brief explanation of the project/photoshoot. When you click on a specific project/photoshoot, then at the bottom will be even more information about it.</p>
+          <br>
+          <a href="#" class="button2">View More Details</a>
+      </div>
+      <!--img-->
+      <div class="about-img">
+        <img src="img/about-model.png" alt="model">
+      </div>
+    </div>
+    <!--Portfolio-->
+    <div id="portfolio" class="portfolio">
+      <h1 class="p-heading">Portfolio</h1>
+      <!--Portfolio Container-->
+      <div class="p-container">
+        <!--Box1-->
+        <a href="portfolio-p.html">
+        <div class="p-box">
+          <div class="text-overlay">
+            <h1>Photography</h1>
+            <p>Click to See More</p>
+          </div>
+          <img src="img/untitled-1.jpg" alt="">
+        </div>
+        </a>
+        <a href="portfolio-o.html">
+        <div class="p-box">
+          <div class="text-overlay">
+            <h1>Other Projects</h1>
+            <p>Click to See More</p>
+          </div>
+          <img src="img/untitled-2.jpg" alt="">
+        </div>
+        </a>
+      </div>
+    </div>
+    <!--Contact-->
+    <div id="contact" class="contact">
+      <form id="contact-form" action="index.html" action="document.php" method="post">
+        <div class="contact-left">
+
+          <h1 class="contact-heading">Contact Me Here</h1>
+
+          <div class="f-name">
+          <p class="c-name">Name</p>
+          <input type="text" name="name" placeholder="Full Name" value="">
+          </div>
+          <!--It's in form mode with f-email than other div class-->
+          <div class="f-email">
+          <p class="c-email">Email</p>
+          <input type="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Full Email" required>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="message">
+            <p class="c-message">Message</p>
+            <textarea name="Message" rows="5" cols="20" placeholder="Write Message"></textarea>
+          </div>
+          <button type="submit" name="submit">Submit</button>
+        </div>
+
+      </form>
+
+    </div>
+    <!--Jquery-->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav ul').toggleClass('active-menu')
+      })
+    })
+    </script>
+  </body>
+</html>
