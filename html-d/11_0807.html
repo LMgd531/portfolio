@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luchian Matei | Portfolio</title>
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <!--  <link rel="stylesheet" media="all" id="font-awesome-5-kit-css" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css">-->
+  </head>
+  <body>
+
+  <input type="checkbox" class="cbox" name="hello" value="hello">
+  <div class="icon-cbox"></div>
+    <!--Loading-->
+    <div class="loading">
+      <div class="loadingReveal"></div>
+      <p class="loadingText">LOADING</p>
+    </div>
+
+    <nav>
+        <!--Logo-->
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <!--Menu-->
+        <ul>
+          <li><a href="../index.html" >Home</a></li>
+          <li><a href="../index.html#about" >About</a></li>
+          <li><a href="../index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <!--Language-->
+        <a href="#" class="lang">En</a>
+      </nav>
+
+    <!--About-->
+    <div id="about" class="about">
+      <div class="about-container">
+        <div class="left-side">
+          <div class="hoverer">
+          </div>
+
+          <img src="../img/11/MG_0807.jpg" alt="" class="img-fin">
+
+          <img src="../img/11/MG_0807_E.jpg" alt="" class="img-org" >
+        </div>
+        <div class="right-side">
+          <p class="image-name">MG_0807</p>
+          <div class="c-settings">
+            <p class="FL">Focal Length: <span class="bold">18mm</span></p>
+            <p class="AP">Aperture: <span class="bold">F/3.5</span></p>
+            <p class="SS">Shutter Speed: <span class="bold">1/80th</span></p>
+            <p class="ISO">ISO: <span class="bold">800</span></p>
+          </div>
+          <div class="contain-info scrollbar style-1">
+          <p class="info">
+
+          </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Jquery-->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav ul').toggleClass('active-menu')
+      })
+    })
+    </script>
+  </body>
+</html>
