@@ -256,11 +256,15 @@ span{
   color: #222;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  height:80%;
+  margin: 0;
+  padding: 30px 0 0 0;
+  box-sizing:content-box;
   font-weight: 800;
   position: absolute;
   letter-spacing: 1px;
   width:100%;
-  top:22.5%;
+  top:50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
