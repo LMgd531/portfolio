@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Photoshoot</title>
+    <link rel="shortcut icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/photoshoot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <!--  <link rel="stylesheet" media="all" id="font-awesome-5-kit-css" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css">-->
+  </head>
+  <body>
+
+  <input type="checkbox" class="cbox" name="hello" value="hello">
+  <div class="icon-cbox"></div>
+    <!--Loading-->
+    <div class="loading">
+      <div class="loadingReveal"></div>
+      <p class="loadingText">LOADING</p>
+    </div>
+
+    <nav>
+        <!--Logo-->
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle"></div>
+        <!--Menu-->
+        <ul>
+          <li><a href="../index.html" >Home</a></li>
+          <li><a href="../index.html#about" >About</a></li>
+          <li><a href="../index.html#portfolio" class="active">Portfolio</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <!--Language-->
+        <a href="#" class="lang">En</a>
+      </nav>
+
+    <!--About-->
+    <div id="about" class="about">
+      <div class="about-container">
+        <div class="intro">
+          <div class="primary">
+            <h1>5th Aug. 2019</h1>
+            <h2>Photoshoot</h2>
+          </div>
+
+          <div class="secondary">
+            <h1>Camera Gear</h1>
+            <h2>Canon 60D</h2>
+            <h2>18-55mm IS II</h2>
+          </div>
+        </div>
+
+        <div class="p-container">
+          <div class="images">
+            <a href="../html-d/10_8981.html"><img class="h" src="../img/10/MG_8981_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8967.html"><img class="h" src="../img/10/MG_8967_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8928.html"><img class="h" src="../img/10/MG_8928_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8880.html"><img class="h" src="../img/10/MG_8880_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8779.html"><img class="h" src="../img/10/MG_8779_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8755.html"><img class="h" src="../img/10/MG_8755_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8745.html"><img class="h" src="../img/10/MG_8745_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8734.html"><img class="h" src="../img/10/MG_8734_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8701.html"><img class="h" src="../img/10/MG_8701_E.jpg" alt=""></a>
+          </div>
+          <div class="images">
+            <a href="../html-d/10_8692.html"><img class="h" src="../img/10/MG_8692_E.jpg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="writing">
+          <p> 10. Photoshoot 5 Aug. 2019: <span>Some more photos that were taken in Northampton. I feel like I polished my edits and started adding more depth to my images by including some foreground.
+          </span></p>
+        </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!--Jquery-->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav ul').toggleClass('active-menu')
+      })
+    })
+    </script>
+  </body>
+</html>
