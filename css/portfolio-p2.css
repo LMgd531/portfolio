@@ -334,7 +334,7 @@ nav ul li a:hover,nav ul li a.active{
 }
 
 .boximg{
-  image-rendering:pixelated;
+  image-rendering:crisp-edges;
   position: relative;
   left:50%;
   transform:translateX(-50%);
