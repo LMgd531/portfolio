@@ -60,14 +60,13 @@
       <div class="about-text">
         <h1>About This</h1>
         <h2>Portfolio Website</h2>
-        <p>Clicking on View More Details below, then you will be greeted witha  video showing you how to navigate this website. <br>
-I created this website by using HTML & CSS, which will be updated almost daily with new photos, projects, and bug fixes.
+        <p>I created this website by using HTML & CSS, which will be updated almost daily with new photos, projects, and bug fixes.
 A few things to keep in mind: the website looks its best at the resolution 1920x1080.
 Below, the Portfolio segment has two options: a 'Photography' and an 'Other Projects' section. All my photoshoots are in the photography section, while my other projects are in the Other Projects section.
 Each photoshoot has pictures, and clicking on them will bring you to the specific photo. If you hover over the images, you will see the original one, like a before and after transition. The 'Other Projects' section does not have this feature.
 When you click on Photography or Other projects, at the bottom, there will be a brief explanation of the project/photoshoot. When you click on a specific project/photoshoot, then at the bottom will be even more information about it.</p>
           <br>
-          <a href="Portfolio.mp4" target="_blank" class="button2">View More Details</a>
+          <a href="#" class="button2">View More Details</a>
       </div>
       <!--img-->
       <div class="about-img">
@@ -86,7 +85,7 @@ When you click on Photography or Other projects, at the bottom, there will be a 
             <h1>Photography</h1>
             <p>Click to See More</p>
           </div>
-          <img src="img/Untitled-1.jpg" alt="">
+          <img src="img/untitled-1.jpg" alt="">
         </div>
         </a>
         <a href="portfolio-o2.html">
@@ -95,35 +94,40 @@ When you click on Photography or Other projects, at the bottom, there will be a 
             <h1>Other Projects</h1>
             <p>Click to See More</p>
           </div>
-          <img src="img/Untitled-2.jpg" alt="">
+          <img src="img/untitled-2.jpg" alt="">
         </div>
         </a>
       </div>
     </div>
     <!--Contact-->
     <div id="contact" class="contact">
-      <form id="contact-form" action="index.html" action="document.php" method="post">
+      <form method="post" action="contact.php">
         <div class="contact-left">
 
           <h1 class="contact-heading">Contact Me Here</h1>
-
+          <br><br><br>
           <div class="f-name">
-          <p class="c-name">Name</p>
-          <input type="text" name="name" placeholder="Full Name" value="">
+          <label class="c-name" for="name">Name:</label>
+          <input type="text" class="text" name="cf_name" placeholder="Name" id="name" />
           </div>
+          <br>
           <!--It's in form mode with f-email than other div class-->
           <div class="f-email">
-          <p class="c-email">Email</p>
-          <input type="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Full Email" required>
+          <label class="c-email" for="email">Email:</label>
+          <input type="text" class="text" name="cf_email" id="email" placeholder="Full Email" />
           </div>
         </div>
+
         <div class="contact-right">
           <div class="message">
-            <p class="c-message">Message</p>
-            <textarea name="Message" rows="5" cols="20" placeholder="Write Message"></textarea>
+            <label class="c-message" for="text">Message:</label> <br>
+          	<textarea class="text" rows="5" cols="20" placeholder="Write Message" name="cf_message" id="message"></textarea>
+
           </div>
-          <button type="submit" name="submit">Submit</button>
+            <input type="submit" class="submit" value="Send" />
         </div>
+
+
 
       </form>
 
